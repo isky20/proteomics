@@ -111,5 +111,4 @@ make.enrichment.2samples.prot <- function(file.name, total.sample,g1,g2,g1name, 
   write.csv(df, paste(g1name,g2name,TESTNAME,"sig_enrichmentFC.csv", sep = "_"), row.names = FALSE)
 
 }
-make.enrichment.2samples.prot("Balb_norm_AP.csv",8,4,4,"pre","post","AP")
-make.enrichment.2samples.prot("Balb_norm_CAP.csv",10,5,5,"pre","post","CAP")
+make.enrichment.2samples.prot("TEST_norm_AP.csv",8,4,4,"pre","post","AP")
