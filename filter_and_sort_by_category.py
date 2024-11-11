@@ -16,7 +16,7 @@ def filter_and_save(input_file, output_file, D, pvalue_threshold):
     
     # Sort each category by Pvalue and take the top 20 rows
     dfs_by_category = {
-        cat: df_filtered[df_filtered['category'] == cat].sort_values(by='Pvalue', ascending=True).head(20)
+        cat: df_filtered[df_filtered['category'] == cat].sort_values(by='Pvalue', ascending=True)
         for cat in categories
     }
     
